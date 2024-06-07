@@ -1,15 +1,15 @@
 package com.losevskiyfz.springaoptask.bootstrap;
 
-import com.losevskiyfz.springaoptask.client.Client;
+import com.losevskiyfz.springaoptask.client.ClientApp;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Bootstrap implements CommandLineRunner {
 
-    private final Client clientApp;
+    private final ClientApp clientApp;
 
-    public Bootstrap(Client clientApp) {
+    public Bootstrap(ClientApp clientApp) {
         this.clientApp = clientApp;
     }
 
